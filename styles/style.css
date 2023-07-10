@@ -1,0 +1,36 @@
+header{background: rgba(229, 84, 115, 0.10);
+    padding: 100px;
+    width: 1650px;
+ height: 700px;
+flex-shrink: 0;
+}
+.banner{
+   display: flex;
+   gap: 300px;
+}
+.title{
+    color: #272727;
+    font-family: Lato;
+    font-size: 80px;
+    font-style: normal;
+    font-weight: 800;
+    width: 700px;
+    flex-direction: column;
+   
+
+}
+ .title-description{
+        color: rgba(39, 39, 39, 0.60);
+        font-family: Lato;
+        font-size: 30px;
+        width: 700px;
+        padding-bottom:30px;
+ }
+ .primery-btn{
+    border-radius: 5px;
+    background: #E55473; 
+    border: 0px;
+    font-size: 30px;
+    color: #FFF;
+    font-family:Georgia, 'Times New Roman', Times, serif
+ }
