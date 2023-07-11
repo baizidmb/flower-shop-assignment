@@ -1,3 +1,4 @@
+          /*1st section*/
 header{background: rgba(229, 84, 115, 0.10);
     padding: 100px;
     width: 1650px;
@@ -6,15 +7,15 @@ flex-shrink: 0;
 }
 .banner{
    display: flex;
-   gap: 300px;
+   gap: 50px;
 }
 .title{
     color: #272727;
     font-family: Lato;
     font-size: 80px;
     font-style: normal;
-    font-weight: 800;
-    width: 700px;
+    width: 900px;
+    
     flex-direction: column;
    
 
@@ -23,7 +24,7 @@ flex-shrink: 0;
         color: rgba(39, 39, 39, 0.60);
         font-family: Lato;
         font-size: 30px;
-        width: 700px;
+        width: 900px;
         padding-bottom:30px;
  }
  .primery-btn{
@@ -34,3 +35,55 @@ flex-shrink: 0;
     color: #FFF;
     font-family:Georgia, 'Times New Roman', Times, serif
  }
+    /*2nd section*/
+.featured{
+    padding-top: 90px;
+    text-align: center;
+    font-size: 30px;
+    font-family:Georgia, 'Times New Roman', Times, serif
+}
+.featured-description{
+    text-align: center;
+    font-size: 27px;
+    color: rgba(39, 39, 39, 0.60);
+    margin-bottom: 150px;
+    
+}
+/*3rd section*/
+.featured-photo{
+   display: flex;
+   gap: 100px;
+   width: 900px;
+   height: 600px;
+   margin-block: ;
+   
+}
+.photo-1{
+    width: px;
+    height: 500px;
+    flex-shrink: 0;
+    border-radius: 300px 300px 0px 0px;
+    background: rgba(167, 33, 98, 0.15);
+    flex-shrink:0;
+    position:relative;
+   
+}
+.featured-caption{
+   text-align: center;
+   font-size: 24px;  
+   font-weight: 700;
+   line-height: 35px;
+   text-decoration-line: underline;
+  
+}
+/*4rd section*/
+.extra{
+    width:900px;
+    height: 100px;
+    flex-shrink: 0;
+    border-radius: 8px;
+    background: rgba(39, 39, 39, 0.05);
+    display: flex;
+    gap: 300px;
+    padding:100px ;
+}
